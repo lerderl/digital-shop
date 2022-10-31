@@ -6,7 +6,7 @@ function App() {
     <div className='container'>
       <header>
         <figure className='text-center'>
-          <img id='profile_img' src={Joseph} alt='My profile image' />
+          <img id='profile_img' src={Joseph} alt='My profile' />
           <figcaption>
             <p id='twitter'>@deljoluks</p>
             <p id='slack' hidden>lerderl</p>
