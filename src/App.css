@@ -16,3 +16,65 @@ header {
   line-height: 30px;
   color: #101828;
 }
+button {
+  padding: 24px 32px;
+  gap: 8px;
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+a {
+  text-decoration: none;
+}
+#btn__zuri {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+.subtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 9px;
+  color: #101828;
+}
+#books {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+#book__python {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+#pitch {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+#book__design {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
