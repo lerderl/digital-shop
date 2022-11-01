@@ -4,10 +4,12 @@ import './App.css';
 import Joseph from './joseph.jpg';
 import Icon from './icon.png';
 import Slack from './slack.png';
+import I4G from './I4G.png';
 
 function App() {
   return (
     <div className='container'>
+      {/* Header */}
       <header>
         <figure className='text-center'>
           <img id='profile_img' src={Joseph} alt='My profile' />
@@ -47,7 +49,13 @@ function App() {
           <img src={Slack} alt='Slack Icon' height='24px' width='23.45px' className='space' />
           <img src={Icon} alt='Github Icon' />
         </section>
-      </main>      
+      </main>
+      {/* Footer */}
+      <footer className='d-flex justify-content-between social-links'>
+        <h3>Zuri<span class="dot">.</span>Internship</h3>
+        <p>HNG Internship 9 Frontend Task</p>
+        <img src={I4G} alt='Ingressive icon' />
+      </footer>
     </div>
   );
 }
