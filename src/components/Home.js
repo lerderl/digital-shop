@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ExternalLink } from 'react-external-link';
 
 import I4G from '../images/I4G.png';
@@ -41,6 +42,9 @@ const Home = () => {
             <p className='subtext'>
               Get a free e-copy of the hng design book to guide you on your journey to design customer friendly user interfaces and improve user experience
             </p>     
+          </button>
+          <button>
+            <Link to='/contact' id='contact'>Contact Me</Link>    
           </button>
         </section>
         {/* Social links */}
