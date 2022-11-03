@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'react-external-link';
 
-import I4G from '../images/I4G.png';
+import Footer from './Footer';
 import Icon from '../images/icon.png';
 import Slack from '../images/slack.png';
 import Joseph from '../images/joseph.jpg';
@@ -54,11 +54,7 @@ const Home = () => {
         </section>
       </main>
       {/* Footer */}
-      <footer className='d-flex justify-content-between social-links'>
-        <h3>Zuri<span className="dot">.</span>Internship</h3>
-        <p>HNG Internship 9 Frontend Task</p>
-        <img src={I4G} alt='Ingressive icon' />
-      </footer>
+      <Footer />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import I4G from '../images/I4G.png';
+import Footer from "./Footer";
 
 const Contact = () => {
   const name = "The Digital Shop";
@@ -44,11 +44,7 @@ const Contact = () => {
         </div>
       </form>
       {/* footer */}
-      <footer className='d-flex justify-content-between social-links'>
-        <h3>Zuri<span className="dot">.</span>Internship</h3>
-        <p>HNG Internship 9 Frontend Task</p>
-        <img src={I4G} alt='Ingressive icon' />
-      </footer>
+      <Footer />
     </div>
   );
 };
