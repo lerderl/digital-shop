@@ -98,3 +98,31 @@ a {
   line-height: 28px;
   color: #101828;
 }
+input:valid {
+  background: #FFFFFF;
+  border: 1px solid #84CAFF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
+  border-radius: 8px;
+}
+textarea:valid {
+  background: #FFFFFF;
+  border: 1px solid #84CAFF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
+  border-radius: 8px;
+}
+input:invalid {
+  background: #FFFFFF;
+  border: 1px solid #F89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #FFD3CC;
+  border-radius: 8px;
+}
+textarea:invalid {
+  background: #FFFFFF;
+  border: 1px solid #F89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #FFD3CC;
+  border-radius: 8px;
+}
+form:invalid button {
+  opacity: 0.3;
+  pointer-events: none;
+}
