@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Footer from "./Footer";
 
 const Contact = () => {
@@ -5,6 +7,7 @@ const Contact = () => {
 
   return (
     <div className='container'>
+      <Link to='/'>Go Back to Home page</Link>
       <h1>Contact Me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
       {/* form */}
